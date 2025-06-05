@@ -1,0 +1,22 @@
+{
+    "customers": [
+        {
+            "account_number": "2345818413",
+            "name": "Levi",
+            "email": "levi@gmail.com",
+            "phone": "09012357568",
+            "balance": 24000.0,
+            "is_blocked": false
+        },
+        {
+            "account_number": "2347074429",
+            "name": "Rinji",
+            "email": "rinji@gmail.com",
+            "phone": "07026626684",
+            "balance": 18000.0,
+            "is_blocked": true
+        }
+    ],
+    "admins": [],
+    "staff": []
+}
