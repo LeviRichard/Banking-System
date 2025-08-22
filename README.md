@@ -46,6 +46,8 @@ This Python project implements a console-based banking system that allows the cr
    * Admin functions allow oversight and management of all accounts.
 
 *Ref 1: Customer account creation screen*
+
 *Ref 2: Staff deposit/withdrawal interface*
+
 *Ref 3: Admin view of all accounts*
 
