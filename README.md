@@ -18,6 +18,21 @@ This Python project implements a console-based banking system that allows the cr
 * JSON for data storage
 * Command-line interface (CLI)
 
+## File Structure
+
+```
+Banking-System/
+│
+├─ main.py                 # Main entry point of the application
+├─ database.json           # Stores all account data persistently
+├─ customer.py             # Customer-related functions and menu
+├─ staff.py                # Staff-related functions and menu
+├─ admin.py                # Admin-related functions and menu
+├─ utils.py                # Utility functions used across modules
+├─ README.md               # Project documentation
+└─ requirements.txt        # Python dependencies (if any)
+```
+
 ## Steps
 
 1. **Clone the repository:**
