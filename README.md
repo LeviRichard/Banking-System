@@ -1,85 +1,51 @@
-# Banking System Application
+# Banking System
 
-## Overview
+## Objective
 
-This is a simple banking system application that allows users to create customer accounts, and enables staff and admin users to manage those accounts. The application is structured around a command-line interface (CLI) that guides users through various functionalities.
+This Python project implements a console-based banking system that allows the creation and management of customer accounts. It supports deposits, withdrawals, transfers, and viewing balances. The system is structured for different user roles: customer, staff, and admin.
 
-## Features
+### Skills Learned
 
-- **Customer Account Management**
-  - Create a new customer account.
-  
-- **Staff Functions**
-  - Deposit money into accounts.
-  - Withdraw money from accounts.
-  - Transfer money between accounts.
-  - Troubleshoot account issues.
-  - View all customer accounts.
+* Implementing account management systems.
+* Handling file-based data storage (`JSON`) for persistent data.
+* Creating role-based access control in CLI applications.
+* Error handling and input validation.
+* Python programming with modular code design.
 
-- **Admin Functions**
-  - Block or unblock customer accounts.
-  - View all customer accounts.
+### Tools Used
 
-## Getting Started
+* Python 3.x
+* JSON for data storage
+* Command-line interface (CLI)
 
-### Prerequisites
+## Steps
 
-- Python 3.x installed on your machine.
+1. **Clone the repository:**
 
-### Installation
-
-1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/LeviRichard/Banking-System.git
+   cd Banking-System
    ```
 
-2. Navigate into the project directory:
+2. **Run the application:**
+
    ```bash
-   cd <project-directory>
+   python main.py
    ```
 
-3. Ensure you have all required modules (if any).
+3. **Navigate the CLI menus:**
 
-### Running the Application
+   * Customers can create accounts and view balances.
+   * Staff can deposit and withdraw money from customer accounts.
+   * Admin can view all accounts and delete accounts.
 
-To run the application, execute the following command in your terminal:
+4. **Account Management:**
 
-```bash
-python main.py
-```
+   * Creating an account involves providing user details.
+   * Deposits, withdrawals, and transfers are secured and logged in `database.json`.
+   * Admin functions allow oversight and management of all accounts.
 
-### Main Menu Options
+*Ref 1: Customer account creation screen*
+*Ref 2: Staff deposit/withdrawal interface*
+*Ref 3: Admin view of all accounts*
 
-1. **Create Customer Account**: Set up a new customer account.
-2. **Login as Staff**: Access staff functionalities.
-3. **Login as Admin**: Access admin functionalities.
-4. **Exit**: Close the application.
-
-### Staff Menu Options
-
-- **Deposit**: Add money to a specific account.
-- **Withdraw**: Remove money from a specific account.
-- **Transfer**: Move funds between accounts.
-- **Troubleshoot Account**: Address account-related issues.
-- **View All Accounts**: Display all customer accounts.
-- **Exit**: Return to the main menu.
-
-### Admin Menu Options
-
-- **Block Account**: Prevent a customer from accessing their account.
-- **Unblock Account**: Restore access to a blocked account.
-- **View All Accounts**: Display all customer accounts.
-- **Exit**: Return to the main menu.
-
-## Contributing
-
-Feel free to fork the repository and submit pull requests. For any issues or feature requests, please open an issue in the repository.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Acknowledgments
-
-- Inspired by various banking management systems.
-- Thanks to the contributors and the open-source community for their resources and support.
